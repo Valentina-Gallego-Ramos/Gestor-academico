@@ -65,12 +65,12 @@ gestor-academico/
 
 1. Descarga o clona el repositorio:
 ```bash
-   git clone https://github.com/tu-usuario/gestor-academico.git
+   git clone https://github.com/Valentina-Gallego-Ramos/Gestor-academico.git
 ```
 
 2. Navega a la carpeta del proyecto:
 ```bash
-   cd gestor-academico
+   cd Gestor-academico
 ```
 
 3. Abre el archivo `public/index.html` en tu navegador web preferido:
