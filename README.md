@@ -130,4 +130,59 @@ El sistema cuenta con cuatro secciones principales accesibles desde el sidebar:
 - Sidebar colapsable en dispositivos móviles
 - Tablas con scroll horizontal en pantallas pequeñas
 
+# 📚 Gestor Académico - Fase 2
+
+
+## 🚀 Descripción
+
+En esta fase se implementa un cliente web funcional que permite:
+
+- Gestión de Estudiantes
+- Gestión de Asignaturas
+- Gestión de Notas
+
+Incluye operaciones CRUD completamente dinámicas en memoria (sin backend real), simulando comunicación con servidor mediante `setTimeout`.
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript 
+
+---
+
+## ⚙️ Funcionalidades implementadas
+
+### ✔ Carga inicial simulada
+- Uso de overlay
+- Simulación de delay con `setTimeout`
+
+### ✔ CRUD completo en memoria
+- Crear
+- Editar
+- Eliminar
+- Repintado dinámico de tablas
+
+### ✔ Delegación de eventos
+Se implementó delegación sobre `<tbody>` para manejar eventos dinámicos.
+
+### ✔ Modal único por módulo
+Un solo formulario para agregar y editar registros.
+
+### ✔ Overlay obligatorio
+Se implementa indicador visual en:
+- Carga inicial
+- Guardado
+- Edición
+- Eliminación
+
+src/
+├── css/
+└── js/
+vistas/
+
+
 
